@@ -1,0 +1,13 @@
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click Me!";
+
+newBtn.style.backgroundColor = "red";
+newBtn.style.color = "white";
+// console.dir(newBtn);
+
+let mydiv = document.querySelector("div");
+mydiv.before(newBtn);
+
+// newBtn.remove();
+
+let para = document.querySelector("p");
